@@ -1,21 +1,12 @@
 import React from 'react';
 import './App.css';
+import { WebButton } from './components/button/webButton';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React and Unit Testing
-        </a>
+        <WebButton label='Click here!'></WebButton>
       </header>
     </div>
   );
