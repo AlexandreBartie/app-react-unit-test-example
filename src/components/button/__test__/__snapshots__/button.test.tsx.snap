@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`check master 1`] = `
+<div
+  className="button-style"
+  data-testid="button"
+>
+  HMasterello
+</div>
+`;
+
+exports[`check master 2`] = `
+<div
+  className="button-style"
+  data-testid="button"
+>
+  Deise
+</div>
+`;
+
+exports[`check tree 1`] = `
+<div
+  className="button-style"
+  data-testid="button"
+>
+  HMasterello
+</div>
+`;
