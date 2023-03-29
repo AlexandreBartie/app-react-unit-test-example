@@ -1,6 +1,4 @@
-import React from 'react';
-import { render, screen } from '@testing-library/react';
-import renderer from 'react-test-renderer';
+import { screen, render, renderer } from '../../../react-test-unit'
 
 import { WebButton } from '../webButton';
 
@@ -31,20 +29,17 @@ it('check testId', async () => {
 });
 
 it('check tree', async () => {
-  const tree = renderer.create(<WebButton label="HMasterello"></WebButton>);
+  const tree = renderer.create(<WebButton label="Master"></WebButton>);
 
   expect(tree).toMatchSnapshot();
-
- 
 });
 
 it('check master', async () => {
-    const z = renderer.create(<WebButton label="HMasterello"></WebButton>);
-  
-    expect(z).toMatchSnapshot();
-  
-    const w = renderer.create(<WebButton label="Deise"></WebButton>);
-  
-    expect(w).toMatchSnapshot();
+  const z = renderer.create(<WebButton label="Mario"></WebButton>);
 
-  });
+  expect(z).toMatchSnapshot();
+
+  const w = renderer.create(<WebButton label="Deise"></WebButton>);
+
+  expect(w).toMatchSnapshot();
+});

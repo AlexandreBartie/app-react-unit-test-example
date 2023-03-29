@@ -5,7 +5,7 @@ exports[`check master 1`] = `
   className="button-style"
   data-testid="button"
 >
-  HMasterello
+  Mario
 </div>
 `;
 
@@ -23,6 +23,6 @@ exports[`check tree 1`] = `
   className="button-style"
   data-testid="button"
 >
-  HMasterello
+  Master
 </div>
 `;
